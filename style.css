@@ -27,9 +27,9 @@ header {
     box-sizing: border-box;
 }
 
-/* تنسيق شعار الموقع بالخط الرسمي */
+
 .logo {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
     color: #ffe81f;
 }
@@ -46,7 +46,7 @@ header nav a:hover {
 }
 
 .hero-section {
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,6 +115,9 @@ header nav a:hover {
     justify-content: center;
     gap: 40px;
     padding: 40px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 .char-card {
@@ -124,6 +127,8 @@ header nav a:hover {
     padding: 30px;
     max-width: 280px;
     text-align: center;
+    width: 90%;
+    max-width: 320px;
 }
 
 
@@ -149,3 +154,6 @@ header nav a:hover {
     border-radius: 8px;
     margin-bottom: 15px;
 }
+
+@media (max-width: 768px) 
+    
